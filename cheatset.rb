@@ -22,6 +22,39 @@ cheatsheet do
       command 'CMD+W'
       name 'Close window'
     end
+
+    entry do
+      command 'CMD+N'         # Optional
+      command 'CMD+SHIFT+N'   # Multiple commands are supported
+      name 'Create window'    # A short name, can contain Markdown or HTML
+      notes 'Some notes'      # Optional longer explanation, can contain Markdown or HTML
+    end
+    entry do
+      command 'CMD+W'
+      name 'Close window'
+    end
+
+    entry do
+      command 'CMD+N'         # Optional
+      command 'CMD+SHIFT+N'   # Multiple commands are supported
+      name 'Create window'    # A short name, can contain Markdown or HTML
+      notes 'Some notes'      # Optional longer explanation, can contain Markdown or HTML
+    end
+    entry do
+      command 'CMD+W'
+      name 'Close window'
+    end
+
+    entry do
+      command 'CMD+N'         # Optional
+      command 'CMD+SHIFT+N'   # Multiple commands are supported
+      name 'Create window'    # A short name, can contain Markdown or HTML
+      notes 'Some notes'      # Optional longer explanation, can contain Markdown or HTML
+    end
+    entry do
+      command 'CMD+W'
+      name 'Close window'
+    end
   end
 
   category do
