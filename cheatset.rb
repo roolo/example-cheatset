@@ -1,14 +1,16 @@
+# frozen_string_literal: true
+
 cheatsheet do
   title 'Sample'               # Will be displayed by Dash in the docset list
   docset_file_name 'Sample'    # Used for the filename of the docset
   keyword 'sample'             # Used as the initial search keyword (listed in Preferences > Docsets)
   # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
 
-  introduction 'My *awesome* cheat sheet'  # Optional, can contain Markdown or HTML
+  introduction 'My *awesome* cheat sheet' # Optional, can contain Markdown or HTML
 
   # A cheat sheet must consist of categories
   category do
-    id 'Windows'  # Must be unique and is used as title of the category
+    id 'Windows' # Must be unique and is used as title of the category
 
     entry do
       command 'CMD+N'         # Optional
